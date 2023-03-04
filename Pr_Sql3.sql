@@ -1,6 +1,6 @@
-create database exercicio;
+create database company;
 
-use exercicio;
+use company;
 
 create table funcionarios
   (
@@ -239,9 +239,3 @@ OR (departamento = 'Filmes' and sexo = 'Feminino');
 Select * From funcionarios
 WHERE sexo = 'Masculino'
 OR departamento = 'Jardim';
-
-
-/* PARA SABER VALORES NULOS SE USA "IS NULL,OU NOT NULL" */
-/*PARA ATUALIZAR OS VALORES SE USA UPDATE "TABELA" + SET " LOCAL QUE SE QUER ATUALIZAR"
-/* PARA VOLTAR ATRAS COM ERROS USAMOS COMANDO COMMIT ROLLBACK"
-/* DELETAR ALGUM COMANDO USA DELETE*/
